@@ -62,8 +62,8 @@ const createCheckout = async (req, res) => {
         },
       ],
       mode: "payment",
-      success_url: `http://localhost:3000/paymentsuccess`,
-      cancel_url: "http://localhost:3000/checkout",
+      success_url: `https://ecommerce-mern-81p2.vercel.app/paymentsuccess`,
+      cancel_url: "https://ecommerce-mern-81p2.vercel.app/checkout",
     });
 
     res.json({ id: session.id, previousCount: paymentCount });
