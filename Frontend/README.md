@@ -4,7 +4,7 @@ MERN-E-Commerce-Frontend is the frontend of an e-commerce web application built 
 
 ## Live Link
 
-You can access the live application at [https://e-shopit.vercel.app/](https://e-shopit.vercel.app/).
+You can access the live application at [https://sk-ecommerce-mern.vercel.app/](https://sk-ecommerce-mern.vercel.app/).
 
 ## Features
 
