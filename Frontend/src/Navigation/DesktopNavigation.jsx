@@ -63,7 +63,7 @@ const DesktopNavigation = () => {
         });
       }
     };
-    getUserData();
+    if(authToken)getUserData();
     getCart(setProceed, setCart, authToken);
     getWishList(setProceed, setWishlistData, authToken);
   }, [authToken]);
